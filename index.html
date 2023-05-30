@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+  
+    <title>Portfolio</title>
+</head>
+<body>
+    <!-- navbar section -->
+    <nav id="navbar">
+           
+            <div id="link-div">
+            <a href="#skills">Skills</a>
+            <a href="#certificate">Certificates</a>
+            <a href="#education">Education</a>
+            <a href="#intro-div">About</a>
+            </div>
+            <!-- verticle div -->
+            <div id="verticle-div">
+<span id="verticle-div-close-btn"><i class="fa-sharp fa-solid fa-x"></i></span>
+                <a href="#skills"  style="margin-top: 80px;" onclick="verticle_div_link()">Skills</a>
+                <a href="#certificate" onclick="verticle_div_link()">Certificates</a>
+                <a href="#education" onclick="verticle_div_link()">Education</a>
+                <a href="#intro-div" onclick="verticle_div_link()">About</a>
+
+                
+            </div>
+
+            <div id="social-media-div">
+                <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.whatsapp.com/" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="https://in.linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://twitter.com/i/flow/login" target="_blank"><i class="fa-brands fa-square-twitter"></i></a>
+            </div>
+
+
+            <p id="list-btn"><i  class="fa-solid fa-bars"></i></p>
+    </nav>
+    <!-- nav end -->
+    <!-- Intro Section -->
+    <section id="intro-div">
+        <div id="name-div">
+            <p style="font-size: 40px;font-family: 'Anton', sans-serif;
+            ">I AM <span style="color:red" class="auto-type"></span> </p>
+            <p>I am full stack web developer<br>If you need any help for web depeloping then freely contact me</p>
+            <br>
+            <a href="#" id="contact-me">Contact Me</a>
+            <a href="#" id="download-cv">Download CV</a>
+        </div>
+
+        <div id="photo-div">
+            <img style="width: 100%;" src="image.png">
+        </div>
+
+    </section>
+
+    <!-- Education -->
+    <section id="education">
+        <h2 ><b>Education</b></h2>
+        <div>
+        <table  >
+            <tr>
+                <th>College</th>
+                <th>Course</th>
+                <th>CGPA/Percentage</th>
+                <th>Duration</th>
+            </tr>
+            <tr>
+                <td>Gujrati High School</td>
+                <td>High School</td>
+                <td>68%</td>
+                <td>2013-2014</td>
+
+            </tr>
+            <tr>
+                <td>Gramin Politechnical College Of Engg.</td>
+                <td>Deploma</td>
+                <td>77%</td>
+                <td>2014-2017</td>
+                
+            </tr>
+            <tr>
+                <td>MGM'S College Of Engg.</td>
+                <td>BE</td>
+                <td>8.5</td>
+                <td>2017-2020</td>
+                
+            </tr>
+        </table>
+    </section>
+
+    <!-- Skill Section -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <div>
+        <ol>
+            <li>Languages
+                <ul>
+                    <li> <div style="width:50%"  class="progress">
+                        <div  class="progress-bar  progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 80%">C++</div>
+                      </div>
+                    </li>
+                    <li><div style="width:50%"  class="progress">
+                        <div  class="progress-bar  progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 70%">Python</div>
+                      </div></li>
+                    <li><div style="width:50%"  class="progress">
+                        <div  class="progress-bar  progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 80%">Javascript</div>
+                      </div></li>
+                </ul>
+            </li>
+            <li>Development
+                <ul>
+                    <li><div style="width:50%"  class="progress">
+                        <div  class="progress-bar  progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 95%;background-color: red;">HTML</div>
+                      </div></li>
+                    <li><div style="width:50%"  class="progress">
+                        <div  class="progress-bar  progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 95%;background-color: red;">CSS</div>
+                      </div></li>
+                    <li><div style="width:50%"  class="progress">
+                        <div  class="progress-bar  progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 80%;background-color: red;">Bootstrap</div>
+                      </div></li>
+                    <li><div style="width:50%"  class="progress">
+                        <div  class="progress-bar  progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 70%;background-color: red;">Tailwind</div>
+                      </div></li>
+                </ul>
+            </li>
+            <li>Tools And Software
+                <ul>
+                    <li><div style="width:50%"  class="progress">
+                        <div  class="progress-bar  progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 80%;background-color: rgb(57, 63, 4);">VS CODE</div>
+                      </div></li>
+                    <li><div style="width:50%"  class="progress">
+                        <div  class="progress-bar  progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 95%;background-color: rgb(57, 63, 4);">Git</div>
+                      </div></li>
+                </ul>
+            </li>
+            <li>Frameworks
+                <ul>
+                    <li><div style="width:50%"  class="progress">
+                        <div  class="progress-bar  progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 80%;background-color: rgb(63, 4, 45);">React JS</div>
+                      </div></li>
+                    <li><div style="width:50%"  class="progress">
+                        <div  class="progress-bar  progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 70%;background-color: rgb(63, 4, 45);">Django</div>
+                      </div></li>
+
+                </ul>
+            </li>
+        </ol>
+    </div>
+    </section>
+
+    <!-- Resume -->
+    <section id="certificate">
+        <h2>Certificates</h2>
+        <div ><img src="Cerificate (1).png"></div>
+        <div ><img src="Cerificate (2).png"></div>
+        <div ><img src="Cerificate (3).png"></div>
+        <div ><img src="Cerificate (4).png"></div>
+    </section>
+
+   
+
+    <footer id="footer">
+<p>Created. Vaibhav Yadav</p>
+    </footer>
+    
+</body>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+<script src="main.js"></script>
+
+</html>
